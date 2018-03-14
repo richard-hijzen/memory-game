@@ -184,11 +184,16 @@ function resetStars() {
    }
 }
 
+function restartGame() {
+    openedCards = [];
+    resetTimer();
+    resetStars();
+    startTimer();
+    startGame();
+}
+
 let restart = document.querySelector(".restart");
-restart.addEventListener("click", resetTimer);
-restart.addEventListener("click", resetStars);
-restart.addEventListener("click", startGame);
-restart.addEventListener("click", startTimer);
+restart.addEventListener("click", restartGame);
 //end reset game
 
 
