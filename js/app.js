@@ -72,7 +72,7 @@ let matchedCard = document.getElementsByClassName("match");
 
 function openCard() {
     openedCards.push(this);
-
+    
     let len = openedCards.length;
 
     if (len === 2) {
