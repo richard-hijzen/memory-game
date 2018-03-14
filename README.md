@@ -7,7 +7,7 @@ For instructions and to see it working check out the live demo and the instructi
 
 ## Live demo
 
-
+https://htmlpreview.github.io/?https://github.com/richard-hijzen/memory-game/blob/master/index.html
 
 ## Instructions
 
